@@ -8,6 +8,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(cors());
 app.use(express.static('public'));
+
 //Get call to return JSON that formats natural and unix date
 app.get("/", (req, res) => {
     res.sendFile(__dirname + '/views/index.html');
@@ -34,7 +35,7 @@ app.get('/:dateVal', function(req, res){
     });
 });
 
-
+//listen to the port
 var listener = app.listen(process.env.PORT, function(){
     console.log('Listening on port ' + listener.address().port);
 });

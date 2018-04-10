@@ -1,10 +1,10 @@
 {
-  "name": "timestamp",
+  "name": "timeStampByCandle",
   "version": "1.0.0",
-  "description": "I'll do this project in 10 min!\r ##Uh-uh!\r Maybe 20 min!",
+  "description": "Try My Timestamp App to Get Unix & Natural Time",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

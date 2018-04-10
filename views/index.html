@@ -1,0 +1,59 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timestamp App</title>
+    <meta name="description" content="Try My Timestamp App to Get Unix & Natural Time">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Timestamp App
+      </h1>
+    </header>
+
+    <main>
+      <h3>Have a try.</h3>
+      <p>Pass a time as a parameter to the url of this microservice.</p>
+      <p>
+        This App will return a date json string with unix and natural dates for any valid query.
+        Values of null will be returned for all non unix or natural date queries.
+      </p>
+      <br/>
+      
+      <p class="bold">Example usage:</p>
+      <p><span class="example-text">'https://timestamp-js.glitch.me/Oct%2013,%201989'</span> or</p>
+      <p><span class="example-text">'https://timestamp-js.glitch.me/October 13, 1989'</span> or</p>
+      <p><span class="example-text">'https://timestamp-js.glitch.me/624265200'</span></p>
+      
+      <p class="bold">Example output:</p>
+      <p><span class="example-text">{"unix":624265200,"natural":"October 13, 1989"}</span></p>
+    </main>
+
+    <footer>
+      <a href="https://github.com/Candle309/timestamp">
+        Github Repo
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <!-- Keeping jQuery script as ecample -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
