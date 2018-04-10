@@ -1,5 +1,5 @@
 {
-  "name": "timeStampByCandle",
+  "name": "TimeStampByCandle",
   "version": "1.0.0",
   "description": "Try My Timestamp App to Get Unix & Natural Time",
   "main": "app.js",
