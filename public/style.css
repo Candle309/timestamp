@@ -1,0 +1,38 @@
+/* styles */
+/* called by your view template */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #3fb4db;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.example-text {
+  display: inline-block;
+  font-size: .8rem;
+  color: #d60610;
+  background: #f9eaeb;
+}
+
+p {
+  max-width: 600px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
