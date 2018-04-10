@@ -1,5 +1,5 @@
 {
-  "name": "timestamp.js",
+  "name": "timestamp",
   "version": "1.0.0",
   "description": "I'll do this project in 10 min!\r ##Uh-uh!\r Maybe 20 min!",
   "main": "app.js",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Candle309/timestamp/issues"
   },
-  "homepage": "https://github.com/Candle309/timestamp#readme"
+  "homepage": "https://github.com/Candle309/timestamp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
 }
