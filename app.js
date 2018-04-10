@@ -35,6 +35,6 @@ app.get('/:dateVal', function(req, res){
 });
 
 
-app.listen(process.env.PORT, function(){
+var listener = app.listen(process.env.PORT, function(){
     console.log('Listening on port ' + listener.address().port);
 });
