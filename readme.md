@@ -1,4 +1,4 @@
-timeStampByCandle
+TimeStampByCandle
 =========================
 
 Welcome to my TimeStamp microservice App.
