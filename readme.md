@@ -1,9 +1,9 @@
 timeStampByCandle
 =========================
 
-Welcome to the Timestamp-js microservice.
+Welcome to my TimeStamp microservice App.
 
-This microservice will return a string containing Unix and natural date timestamps in json format. 
+This app will return a string containing Unix and natural date timestamps in json format. 
 
 **To use,** pass a Unix or natural time string as a parameter to the url. The API will determine whether the parameter is a Unix or natural time string. API will retirn null values for invalid date strings.
 
